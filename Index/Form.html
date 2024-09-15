@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Form></Form></title>
+</head>
+<body>
+    <p>Choose your Favourite Language:</p>
+    <form action="https://www.whitehatjr.com/" target="_blank" method="get">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <Fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fav_fname" value="Enter your First Name"><br>
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="fav_lname" value="Enter your Last name"><br>
+            <label for="address">Address</label>
+            <textarea rows="2" cols="25"></textarea><br>
+            <label for="City">City</label>
+        <select id="city" name="fav_city">
+            <option value="0">Select</option>
+            <option value="Delhi" >Delhi</option>
+            <option value="Mumbai" selected>Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Goa">Goa</option>
+        </select><br>
+        <label for="Pincode">Pin Code</label>
+        <input type="text" id="pcode" name="fav_pcode" value="Digits only">
+        </Fieldset><br>
+
+        <fieldset>
+            <legend>Qualification</legend>
+            <label for="matric">10th</label>
+            <input type="text" id="matic" name="fav_matric" value="School Name"><br>
+
+            <label for="intermediate">12th</label>
+            <input type="text" id="inter" name="fav_inter" value="School/College Name"><br>
+
+            <label for="graduation">Graduation</label>
+            <input type="text" id="grad" name="fav_grad" value="College/University Name"><br>
+
+            <label for="master">Masters</label>
+            <input type="text" id="master" name="fav_master" value="College/University Name"><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Professional Experience</legend>
+            <label for="exp">Do you have any work Experience?</label>
+            <select id="job" name="fav_job">
+                <option value="yes">Yes</option>
+                <option value="no" selected>No</option>
+            </select><br>
+            <label for="exp_yes">If yes then please brief.</label>
+                <input type="text" id="expyes" name="fav_exp_yes" value="Please mention your exp.">
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

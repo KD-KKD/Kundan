@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document-Table</title>
     <style>
         div {background-color: yellowgreen; }
         span {color: blue;}
     </style>
-    <title>Day-4-001</title>
+    <title>Table</title>
 </head>
 <body>
     
@@ -18,59 +18,61 @@
             with an aim to make it easier for transporters to book a load and enable Clients to have access to 
             the right truck at the right time for the right price.</h4></p>
         </div>
-        <ul type = "circle">
-            <li>Coding</li>
-                <ol type="1">
-                    <li>Begineer</li>
-                    <Li>Intermediate</Li>
-                    <li>Advanced</li>
-                    <li>Professional</li>
-                    <li>Applied Tech</li>
-                </ol>
-            <li>Maths</li>
-                <ol type="1" start="100" reversed>
-                    <li>Grade-1 </li>
-                    <li>Grade-2 </li>
-                    <li>Grade-3 </li>
-                    <li>Grade-4 </li>
-                    <li>Grade-5 </li>
-                    <li>Grade-6 </li>
-                    <li>Grade-7 </li>
-                    <li>Grade-8 </li>
-                </ol>
-            <li>Music</li>
-                <ul>
-                    <li>Guitar</li>
-                    <ol type="1" start="14">
-                        <li>Guitar for Kids</li>
-                        <li>Guitar for Adults</li>
-                    </ol>
-                    <li>Piano</li>
-                    <ol type="1" start="16">
-                        <li>Piano for Kids</li>
-                        <li>Piano for Adults</li>
-                    </ol>
-                </ul>
-            <li>Arts</li>
-        </ul>
-        <dl>
-            <dt>Webinar</dt>
-            <dd>It is used for updating new feature or for clearing your queries</dd>
-            <dd>We have also add live QnA session in the last</dd>
-            <dt>LMS</dt>
-            <dd> It is mandatory to complete all the LMS classes before getting new live class</dd>
-            <dd>If any teacher will not complete any class of any curriculum then she will nor able to get that class.</dd>
-            <dt>Certificates</dt>
-            <dd>There are 3 types of certificates</dd>      
-                <dd><ol>
-                    <li>Promotions Certificate</li>
-                    <li>LMS complettion Certificates</li>
-                    <li>Milestone certificates</li>
-                </ol>
-                <dd>New features will be shown here</dd>
-            </dd>
+        <table border="1">
+            <caption><h2>Courses</h2></caption>
+            <tr>
+                <th>Coding</th>
+                <th>Maths</th>
+                <th>Music</th>
+                <th>Arts</th>
+            </tr>
+            <tr>
+                <td>Begineer</td>
+                <td>Grade-1</td>
+                <td>Piano for Kids</td>
+                <td rowspan="8">Arts</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Grade-2</td>
+                <td>Piano for Adult</td>
                 
-        </dl>
-        <p>New features will be shown here</p>
+            </tr>
+            <tr>
+                <td>Advance</td>
+                <td>Grade-3</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Professional</td>
+                <td>Grade-4</td>
+                <td>Guitar for Kids</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Applied Tech</td>
+                <td>Grade-5</td>
+                <td>Guitar for Adults</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td rowspan="3"></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                
+                <td>Grade-7</td>
+
+            </tr>
+            <tr>
+                
+                <td>Grade-8</td>
+                
+            </tr>    
+        </table>
+        
+
 </body>
 </html>
