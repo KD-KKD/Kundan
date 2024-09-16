@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Basic HTML From</h1>
+    <form>
+    <p>
+        <label for="Name">Name</label>
+        <input type="text" id="fname" name="f_name"  required>
+        <input type="text" id="lname" name="l_name" required>
+    </p>
+    <p>
+        <label for="gender">Gender :</label>
+        <input type="radio" id="male" name="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" required>
+        <label for="f_male">Female</label>
+    </p><hr>
+    <p><i><b><u>Link with me :</u></b></i></p>
+    <hr>
+    <p>
+        <label for="contact">Phone</label>
+        <input type="number" id="phone" name="phone_no"  required>
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="e_mail" value="Email" required>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Which taxi do you require?</legend>
+            <input type="radio" id="car" name="taxi" required>
+            <label for="l_car">Car</label><br>
+            <input type="radio" id="van" name="taxi" required>
+            <label for="l_van">Van</label><br>
+            <input type="radio" id="tuk_tuk" name="taxi" required>
+            <label for="l_tuk">Tuk Tuk</label>
+        </fieldset>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Extras</legend>
+            <input type="checkbox" id="l_bseat" name="extras">
+            <label for="B_seat">Baby Seat</label><br>
+            <input type="checkbox" id="l_wheelchair" name="extras">
+            <label for="w_chair">Wheelchair Access</label><br>
+            <input type="checkbox" id="s_tip" name="extras">
+            <label for="stocktip">Stock tip</label>
+        </fieldset>
+    </p>
+    <p>
+        <label for="pickup_date">Pickup Date/Time</label>
+        <input type="datetime-local" id="date_time" name="d_time" required>
+    </p>
+    <p>
+        <label for="pick_place">Pickup Place</label>
+        <select id="place" name="pickup_place" multiple size="5" required>
+            <optgroup label="North India">
+            <option value="Delhi">Delhi</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="Noida">Noida</option>
+            </optgroup>
+
+            <optgroup label="East India">
+            <option value="Kolkata">Kolkata</option>
+            <option value="Patna">Patna</option>
+        </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="drop_place">Dropoff Place</label>
+        <input type="text" id="d_place" name="dropplace" required>
+        <datalist id="destination">
+            <option value="Airport"></option>
+            <option value="Shopping_Mall"></option>
+            <option value="Tourist_place"></option>
+        </datalist>
+    </p>
+    <p>
+        <label for="info">Special Information</label>
+        <textarea name="s_information" rows="2" cols="15">    
+        </textarea>
+    </p>
+    <input type="submit" name="sub_mit" id="smit" value="Submit Booking">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
